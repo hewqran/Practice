@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Caveat&family=Didact+Gothic&family=Lobster&family=Neucha&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1,
+h2 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffcce6;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    margin-bottom: 3em;
+    background-color: #f5499a;
+}
+
+ul {
+    font-family: 'Alice', cursive;
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #424242;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    flex-basis: 750px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.myImg {
+    display: flex;
+    margin: 25px;
+    flex-basis: 300px;
+    justify-content: right;
+}
+
+.knowledge {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: #f5499a;
+    border: 5px double #f5499a;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+}
+
+.article {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+}
+
+.text {
+    font-size: 1.2rem;
+    color: #424242;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+        background-color: #f5499a;
+    flex: 0 0 auto;
+}
+
+.colorText {
+    color: #f5499a;
+    font-weight: bold;
+}
